@@ -1,0 +1,248 @@
+html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  width: 960px;
+}
+
+header {
+  padding: 50px 0px 20px 0px;
+  width: 960px;
+}
+
+header .contain-box {
+  width: 100%;
+  height: 100px;
+  background-color: #006eff !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+header .contain-box .spacer {
+  width: 220px !important;
+}
+
+header .contain-box h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body nav {
+  padding: 50px;
+  width: 100%;
+}
+
+body nav ul li {
+  margin-right: 30px;
+}
+
+body nav ul li .current {
+  width: 100%;
+  height: 2px !important;
+  background-color: black !important;
+}
+
+body nav ul li .no-current {
+  width: 100%;
+  height: 2px !important;
+  background-color: gray;
+}
+
+body nav ul li a {
+  text-decoration: none !important;
+  color: black;
+}
+
+body nav ul li a :hover {
+  color: gray;
+}
+
+body nav ul li a span {
+  font-size: 20px;
+}
+
+body .design-obj {
+  padding-bottom: 50px;
+}
+
+body .design-obj .Block1 {
+  width: 100%;
+  height: 20px;
+  background-color: #006eff;
+}
+
+body .design-obj .Block2 {
+  width: 100%;
+  height: 50px;
+  background-color: #bdbdbd;
+}
+
+body .WelcomeText {
+  padding-bottom: 80px;
+}
+
+body .Content {
+  padding-bottom: 50px;
+}
+
+body .Content .Kontakt .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .Content .First-row {
+  padding-bottom: 50px;
+}
+
+body .Content .First-row .col-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+body .Content .Second-row .col-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+body .Content .Button-but :hover {
+  background-color: #004aaa;
+}
+
+body .Content .Button-but Button {
+  -webkit-box-shadow: 5px 2px 2px dimgray;
+          box-shadow: 5px 2px 2px dimgray;
+  border: none;
+  background-color: #006eff;
+}
+
+body .Content .Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .Content .Table {
+  padding-bottom: 50px;
+}
+
+body .Content .Table .row .col {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .Content .Impressum_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .Content .Impressum_center .Datenschutzbut {
+  padding-top: 20px;
+}
+
+body .Content .Impressum_center .Datenschutzbut :hover {
+  background-color: #004aaa;
+}
+
+body .Content .Impressum_center .Datenschutzbut Button {
+  padding: 2px 5px 2px 5px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 2px 2px dimgray;
+          box-shadow: 5px 2px 2px dimgray;
+  border: none;
+  background-color: #006eff;
+}
+
+body .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .footer .foot {
+  padding-bottom: 5px;
+  width: 960px;
+  background-color: #006eff;
+}
+
+body .footer .foot .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .footer .foot .row .col .Im {
+  padding-left: 20px;
+}
+
+body .footer .foot .row .col a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+  font-size: 20px;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+body .footer .foot .row .col .posright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 20px;
+}
+
+body .footer .foot .row .col .posright h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+/*# sourceMappingURL=main.css.map */
